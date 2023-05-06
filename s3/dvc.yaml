@@ -16,6 +16,12 @@ artifacts:
   lost:
     type: model
     path: dasdsa
+  graphql-query:
+    desc: Some desc
+    type: model
+    labels:
+    - my-label
+    path: path-to-file
 stages:
   prepare:
     cmd: python src/prepare.py data/data.xml
