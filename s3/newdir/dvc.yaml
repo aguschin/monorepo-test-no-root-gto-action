@@ -1,0 +1,7 @@
+artifacts:
+  graphql-query:
+    path: path-to-file
+    desc: Some desc
+    type: model
+    labels:
+    - my-label
