@@ -22,6 +22,9 @@ artifacts:
     labels:
     - my-label
     path: path-to-file
+  another-model-5:
+    path: some-unique-path
+    type: model
 stages:
   prepare:
     cmd: python src/prepare.py data/data.xml
